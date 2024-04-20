@@ -1,0 +1,104 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: rgba(135, 207, 235, 0.87);
+    font-family: Poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+#weather-container{
+    background: rgba(0, 183, 255, 0.87);
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+h2 , label , p{
+    color: #fff;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+input{
+    width: calc(100% - 26px);
+    padding: 8px 8px;
+    border-radius: 10px;
+    border: #fff;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+
+button{
+    background : rgba(0, 0, 0, 0.411);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+button:hover{
+    background: rgba(0, 0, 0, 0.541);
+}
+
+#weather-icon{
+    display: none;
+    margin: -20px auto;
+    margin-bottom: 0;
+    width: 150px;
+    height: 150px;
+}
+
+#temp-div p{
+    font-size: 60px;
+    margin-top: -40px;
+}
+
+#weather-info{
+    font-size: 20px;
+    margin-top: -60px;
+    display: none;
+}
+
+
+#hourly-forcast {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.hourly-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -5px;
+}
+
+#hourly-heading {
+    color: #fff;
+    margin-top: 10px;
+} 
+
